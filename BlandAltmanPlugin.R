@@ -1,3 +1,5 @@
+library(caret)
+
 input <- function(inputfile) {
     resamps <<- readRDS(inputfile)
 }
